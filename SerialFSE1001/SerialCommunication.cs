@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO.Ports;
 using System.Threading;
-using System.Diagnostics;
 using System.Collections;
-using System.Timers;
 
 namespace SerialCommunicationCsharp
 {
-
         public class SerialThread
         {
             // please refer to https://www.alanzucconi.com/2016/12/01/asynchronous-serial-communication/
