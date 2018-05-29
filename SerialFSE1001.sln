@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialFSE1001", "SerialFSE1001\SerialFSE1001.csproj", "{C20F5A07-04E5-4552-B135-00647CE12181}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialCommunicationCsharp", "SerialFSE1001\SerialCommunicationCsharp.csproj", "{C20F5A07-04E5-4552-B135-00647CE12181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

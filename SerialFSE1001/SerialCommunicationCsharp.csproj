@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C20F5A07-04E5-4552-B135-00647CE12181}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SerialFSE1001</RootNamespace>
-    <AssemblyName>SerialFSE1001</AssemblyName>
+    <RootNamespace>SerialCommunicationCsharp</RootNamespace>
+    <AssemblyName>SerialCommunicationCsharp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerialFSE1001.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
