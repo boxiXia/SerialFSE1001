@@ -15,14 +15,15 @@ namespace SerialCommunicationCsharp
         static void Main(string[] args)
         {
             sensor = new SerialThreadFSE1001();
-            sensor.StartThread();
             sensor.InitializeSensor();
 
-            System.Timers.Timer aTimer = new System.Timers.Timer();
+            System.Timers.Timer aTimer = new System.Timers.Timer() {
+                Interval = 20000,
+                AutoReset = false,
+                Enabled = true,
+            };
             aTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
-            aTimer.Interval = 3000;
-            aTimer.Enabled = true;
-            aTimer.AutoReset = false;
+
             while (sensor.IsLooping())
             {
                 if (sensor.receiveQueue.Count != 0)
